@@ -31,7 +31,7 @@ class DriversTests {
     }
 
     @Test
-    fun clear_drivers(){
+    fun clear_drivers(){//This following function is from Anthropic, Claude, "Testcases failed, whats the reason(the reason was I was mixing up tag with text)", 2026-10-20
         composeTestRule.onNodeWithTag("driversButton").performClick()
         composeTestRule.onNodeWithTag("driverInput").performTextInput("Hamilton")
         composeTestRule.onNodeWithTag("addDriverButton").performClick()
