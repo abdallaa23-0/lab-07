@@ -5,7 +5,7 @@
 - **CCID:** `abdalla5`
 
 ## References and Resources
-List any resources used here, or simply put `N/A` if not applicable.
+
 Anthropic, Claude, used in the clear_drivers() testcase to help debug a small problem.
 
 ## Verbal Collaboration
