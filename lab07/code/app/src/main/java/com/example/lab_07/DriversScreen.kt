@@ -80,6 +80,16 @@ fun DriversScreen(navController: NavController){
             ) {
                 Text("Add")
             }
+
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Button(
+            onClick = {
+                driversList.clear()
+            },
+            modifier = Modifier.testTag("clearInput")
+        ){
+            Text("Clear")
         }
 
             LazyColumn{
